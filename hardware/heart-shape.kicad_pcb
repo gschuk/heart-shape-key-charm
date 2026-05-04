@@ -323,7 +323,7 @@
 			(uuid "36f31cb1-9419-4001-8d55-0f88b1ec0c67")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -342,7 +342,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D6"
-			(at -0.345 -1.625 35)
+			(at 0.020969 1.516232 305)
 			(layer "F.SilkS")
 			(uuid "7cde19ad-bf0b-4391-b106-9713ece4acdc")
 			(effects
@@ -353,7 +353,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at -0.133463 1.869159 125)
+			(at -0.01381 -1.694343 125)
 			(layer "F.Fab")
 			(uuid "74f4538a-96d7-4c47-a4b5-513230764163")
 			(effects
@@ -557,7 +557,7 @@
 			(uuid "ef1fe420-bcf4-4683-9dd8-df3a980749d1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1786,7 +1786,7 @@
 			(uuid "26aedaa1-dfc2-4432-bfad-a2c55db80e8d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl"
+		(model "/usr/share/kicad/3dmodels/LED_SMD.3dshapes/LED_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2752,7 +2752,7 @@
 			(uuid "e66e390c-dfb8-462b-88fa-15a7a0d97995")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.wrl"
+		(model "/usr/share/kicad/3dmodels/Package_SO.3dshapes/SO-14_3.9x8.65mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3602,7 +3602,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D2"
-			(at 0 0 135)
+			(at 0.016973 1.706355 135)
 			(layer "F.SilkS")
 			(uuid "266cfab0-4df8-4df0-bb38-9d4a89a71c31")
 			(effects
@@ -3613,7 +3613,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.650001 135)
+			(at 0.031115 -1.829178 135)
 			(layer "F.Fab")
 			(uuid "b6073d49-d3ee-472d-a50a-cb1bf1ec5d1d")
 			(effects
