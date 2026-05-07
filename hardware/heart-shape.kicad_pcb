@@ -99,8 +99,8 @@
 	(net 19 "Net-(D6-A)")
 	(net 20 "Net-(D7-A)")
 	(net 21 "Net-(D7-K)")
-	(net 22 "Net-(U1-VCC)")
-	(net 23 "unconnected-(S1-Pad3)")
+	(net 22 "unconnected-(S1-Pad3)")
+	(net 23 "Net-(U1-VCC)")
 	(footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "067072c5-b37f-4086-bde9-946215aeeecb")
@@ -665,7 +665,7 @@
 			(at -1.225 -4.131 135)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4c22b7d0-6d4f-4dc3-b612-9726418d99be")
+			(uuid "be232e23-5ba3-4a97-b6c9-c2187a14cf6a")
 			(effects
 				(font
 					(size 1 1)
@@ -676,7 +676,7 @@
 		(property "Value" "EG1215AA"
 			(at 0.578893 -3.606245 135)
 			(layer "F.Fab")
-			(uuid "3ae4fd53-e704-4064-b4da-b3b8a7b4d675")
+			(uuid "6be133a1-0845-401a-802e-0625b62eb0d4")
 			(effects
 				(font
 					(size 1 1)
@@ -688,7 +688,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "13933c58-fc1b-4c6e-9555-05bfef2708b6")
+			(uuid "4a70286e-ab00-4431-b998-88894accc838")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -700,7 +700,7 @@
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ec2ac55-af28-4022-82e8-490975461b9c")
+			(uuid "a4694851-3b19-426e-b924-26f3ba7d7162")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1078,7 +1078,7 @@
 			(at -2.25 -1.749999 135)
 			(size 0.7 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 22 "Net-(U1-VCC)")
+			(net 23 "Net-(U1-VCC)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "0d43a2f3-42a5-44e2-b635-2eb0cfd01cf2")
@@ -1096,7 +1096,7 @@
 			(at 2.25 -1.75 135)
 			(size 0.7 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 23 "unconnected-(S1-Pad3)")
+			(net 22 "unconnected-(S1-Pad3)")
 			(pintype "passive+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "5c7c84d5-5d65-4327-8c3c-c7a3cc6ba178")
@@ -2616,7 +2616,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 22 "Net-(U1-VCC)")
+			(net 23 "Net-(U1-VCC)")
 			(pinfunction "VCC")
 			(pintype "power_in")
 			(uuid "98c4b4d9-01bc-4e9f-8ec3-e68a2eda751e")
@@ -4210,7 +4210,7 @@
 			(size 1.175 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.212766)
-			(net 22 "Net-(U1-VCC)")
+			(net 23 "Net-(U1-VCC)")
 			(pintype "passive")
 			(uuid "e0f01fe9-e2a0-48a8-b514-1b1fe6e335cf")
 		)
@@ -4229,119 +4229,12 @@
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "B.Cu")
-		(uuid "017a0eeb-e71a-4222-bcf2-b6a45f2c5759")
-		(at 109.49 91.08)
-		(descr "SMD pad as test Point, diameter 1.5mm")
-		(tags "test point SMD pad")
-		(property "Reference" "J13"
-			(at 0 1.648 180)
-			(layer "B.SilkS")
-			(uuid "c26c8597-2bf5-435e-aab1-d2450d31f520")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 0 -1.75 180)
-			(layer "B.Fab")
-			(uuid "50692bba-6551-48a7-b2a9-7b2527b30155")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a1e53192-2f45-413d-aad5-23e4aa390dd8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9ecb076e-43b5-4b54-9981-091ddf80a9a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(sheetname "/")
-		(sheetfile "hearth-shape.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 0 -0.95)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "B.SilkS")
-			(uuid "c84a3d7f-6544-4251-a9f6-da34670812ad")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "B.CrtYd")
-			(uuid "3fb4627c-ff91-4916-b442-e8eb5aa7b4c4")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 1.65 180)
-			(layer "B.Fab")
-			(uuid "8c8cbdec-a121-4a10-9b5a-bbe417880c98")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 1.5 1.5)
-			(layers "B.Cu" "B.Mask")
-			(net 9 "Net-(BT1-+)")
-			(pinfunction "Pin_1")
-			(pintype "passive")
-			(uuid "fdd2eac6-eb87-42e0-a4b6-67f59b23a361")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
-		(layer "B.Cu")
 		(uuid "3caa1947-525b-4920-8648-c349dc4d9322")
 		(at 112.06 91.04)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "JF1"
-			(at 0 -1.91 180)
+			(at 0 1.65 180)
 			(layer "B.SilkS")
 			(uuid "6a96b8a4-4b49-44e0-9c2f-023f45a0ba52")
 			(effects
@@ -4444,12 +4337,228 @@
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "B.Cu")
+		(uuid "47f4b466-77a2-4e1d-8ad6-0fd20d98a43f")
+		(at 109.47 91.04)
+		(descr "SMD pad as test Point, diameter 1.5mm")
+		(tags "test point SMD pad")
+		(property "Reference" "JVcc1"
+			(at -0.01 -1.89 180)
+			(layer "B.SilkS")
+			(uuid "cfd8e3c1-cfd3-464d-bc1b-89996d5ce6f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 -1.75 180)
+			(layer "B.Fab")
+			(uuid "232e0af4-7f0d-4fb0-b4ca-4f3b2848a0df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ba0ca3e2-01a6-4d72-ace2-59ed9840000c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "93827010-8e1b-440e-97fd-e8eb0bc13caf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/8402fb52-98ed-469d-843b-036533f1536f")
+		(sheetname "/")
+		(sheetfile "heart-shape.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "5f60a8af-c0d4-4e3f-8a9e-65c44e079363")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "aee6885e-69fd-4f47-9180-f6b7fd5d8c5d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.01 -1.888 180)
+			(layer "B.Fab")
+			(uuid "5d915710-b54e-4a5e-a91e-875f897e58d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(layers "B.Cu" "B.Mask")
+			(net 9 "Net-(BT1-+)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "2919429e-34ab-41f7-92e2-c145c849a1fc")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
+		(layer "B.Cu")
+		(uuid "4af0dcac-5018-4c67-9363-7fba3486445e")
+		(at 122.41 91.04)
+		(descr "SMD pad as test Point, diameter 1.5mm")
+		(tags "test point SMD pad")
+		(property "Reference" "JGND1"
+			(at 0 1.648 180)
+			(layer "B.SilkS")
+			(uuid "f579dd20-9f81-45f8-85e4-6b100505b750")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 -1.75 180)
+			(layer "B.Fab")
+			(uuid "e458735f-b602-461b-b1e2-2322707b5b7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "58f50676-6d37-4c2c-8de3-62a4efdd1833")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9940f12f-a30d-4b8d-b6c7-7b2971554e19")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/3225a6f0-77e6-48a1-84cd-d2f5159eed04")
+		(sheetname "/")
+		(sheetfile "heart-shape.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "5c70ee8c-8690-40f8-84ca-8e7f2757a6c7")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "e63c452d-82b6-4c5c-973f-f7719e924413")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.65 180)
+			(layer "B.Fab")
+			(uuid "75b456e4-60e7-4bec-81dd-1609825ecf2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(layers "B.Cu" "B.Mask")
+			(net 8 "GND")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "400ef3d8-72cf-4a73-87a1-2feeaf95f8a9")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
+		(layer "B.Cu")
 		(uuid "6d96013b-aa49-4bfc-a76d-0cddf697ead3")
 		(at 117.200003 90.926852)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "JF3"
-			(at 0 -1.796852 180)
+			(at 0 1.643148 180)
 			(layer "B.SilkS")
 			(uuid "9dbf0f13-794e-43c0-a963-1811d8837aea")
 			(effects
@@ -4557,7 +4666,7 @@
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "JF4"
-			(at 0 1.648 180)
+			(at 0 -1.916852 180)
 			(layer "B.SilkS")
 			(uuid "ffa75b47-ee22-40a5-b267-c7dcc68fd9e7")
 			(effects
@@ -4636,7 +4745,7 @@
 			(uuid "e1303e25-59c6-4b75-b77a-3c35a91567eb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.65 180)
+			(at 0 -1.914852 180)
 			(layer "B.Fab")
 			(uuid "dd22936e-a268-48e0-9d38-3e9bc8b7c374")
 			(effects
@@ -4665,7 +4774,7 @@
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "JF2"
-			(at 0 1.648 180)
+			(at 0 -1.886852 180)
 			(layer "B.SilkS")
 			(uuid "4ddcb96b-27e1-4da1-8156-1ef84bc273e9")
 			(effects
@@ -4744,7 +4853,7 @@
 			(uuid "5cc0db90-4c02-4e17-a8f4-5c1bf7511a28")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.65 180)
+			(at 0 -1.884852 180)
 			(layer "B.Fab")
 			(uuid "dbf613c4-592e-4924-a531-2b799b3f32a9")
 			(effects
@@ -6545,6 +6654,22 @@
 		(uuid "e35b2358-981e-4a48-9a5a-a5214ce1b9a7")
 	)
 	(segment
+		(start 122.41 91.04)
+		(end 122.41 102.656855)
+		(width 0.4)
+		(layer "B.Cu")
+		(net 8)
+		(uuid "e4f917d9-21d0-4e5a-bf8c-a8d46b2168b7")
+	)
+	(segment
+		(start 122.41 102.656855)
+		(end 117.070003 107.996852)
+		(width 0.4)
+		(layer "B.Cu")
+		(net 8)
+		(uuid "f1cbb1f8-f78b-4c50-b558-30667a74cabd")
+	)
+	(segment
 		(start 95.83 94.908019)
 		(end 95.83 94.92)
 		(width 0.4)
@@ -6591,14 +6716,6 @@
 		(layer "B.Cu")
 		(net 9)
 		(uuid "481f8a34-3386-4c18-b209-ab7c30efe253")
-	)
-	(segment
-		(start 109.260003 91.086852)
-		(end 109.483148 91.086852)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 9)
-		(uuid "6413f914-918b-4b85-a36a-bfc982a17d23")
 	)
 	(segment
 		(start 95.83 94.92)
@@ -7221,7 +7338,7 @@
 		(end 102.83 98.93)
 		(width 0.4)
 		(layer "F.Cu")
-		(net 22)
+		(net 23)
 		(uuid "173765cd-fb86-4061-a12e-be89f0a91fd2")
 	)
 	(segment
@@ -7229,7 +7346,7 @@
 		(end 107.59 111.836852)
 		(width 0.4)
 		(layer "F.Cu")
-		(net 22)
+		(net 23)
 		(uuid "1dc9d481-f285-43e8-9a6d-15f0b32f2c25")
 	)
 	(segment
@@ -7237,7 +7354,7 @@
 		(end 107.46 94.3)
 		(width 0.4)
 		(layer "F.Cu")
-		(net 22)
+		(net 23)
 		(uuid "1f8a7467-739d-4be4-86ab-b60e6d074f9f")
 	)
 	(segment
@@ -7245,7 +7362,7 @@
 		(end 109.093148 111.836852)
 		(width 0.4)
 		(layer "F.Cu")
-		(net 22)
+		(net 23)
 		(uuid "4ace26ae-d621-4a42-937d-8e33f3448b1a")
 	)
 	(segment
@@ -7253,7 +7370,7 @@
 		(end 107.59 111.836852)
 		(width 0.4)
 		(layer "F.Cu")
-		(net 22)
+		(net 23)
 		(uuid "52d5c68c-a276-4063-8b16-197cad47e681")
 	)
 	(segment
@@ -7261,7 +7378,7 @@
 		(end 99.542894 95.437766)
 		(width 0.4)
 		(layer "F.Cu")
-		(net 22)
+		(net 23)
 		(uuid "6232cf90-beb8-4960-8545-e97bc4f41df5")
 	)
 	(segment
@@ -7269,7 +7386,7 @@
 		(end 107.600003 111.846855)
 		(width 0.4)
 		(layer "F.Cu")
-		(net 22)
+		(net 23)
 		(uuid "6ecd81b6-9e39-4202-9213-8b42565d107f")
 	)
 	(segment
@@ -7277,7 +7394,7 @@
 		(end 113.08 107.85)
 		(width 0.4)
 		(layer "F.Cu")
-		(net 22)
+		(net 23)
 		(uuid "a8a70f84-7336-480e-ba71-bd64aa64dc98")
 	)
 	(segment
@@ -7285,7 +7402,7 @@
 		(end 99.542894 97.382894)
 		(width 0.4)
 		(layer "F.Cu")
-		(net 22)
+		(net 23)
 		(uuid "ad86245f-09a2-4d85-878e-c68b8c333251")
 	)
 	(segment
@@ -7293,7 +7410,7 @@
 		(end 101.09 98.93)
 		(width 0.4)
 		(layer "F.Cu")
-		(net 22)
+		(net 23)
 		(uuid "f3f268e8-8418-476c-bb14-e20fec0f90c9")
 	)
 	(via
@@ -7301,7 +7418,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 22)
+		(net 23)
 		(uuid "0f079cab-cf8e-4b05-ba1b-e2935118cea3")
 	)
 	(via
@@ -7309,7 +7426,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net 22)
+		(net 23)
 		(uuid "85b400e9-8358-4548-81fb-2c3c5f083697")
 	)
 	(segment
@@ -7317,7 +7434,7 @@
 		(end 111.03 95.69)
 		(width 0.4)
 		(layer "B.Cu")
-		(net 22)
+		(net 23)
 		(uuid "2c7cd783-cb7e-4053-bfe9-4be68bc0589a")
 	)
 	(segment
@@ -7325,7 +7442,7 @@
 		(end 111.03 104.24)
 		(width 0.4)
 		(layer "B.Cu")
-		(net 22)
+		(net 23)
 		(uuid "4cd85dc9-2342-4bac-9d69-11771f715ae2")
 	)
 	(segment
@@ -7333,7 +7450,7 @@
 		(end 111.03 105.8)
 		(width 0.4)
 		(layer "B.Cu")
-		(net 22)
+		(net 23)
 		(uuid "d193da16-ec74-4dcd-b387-2968090cec51")
 	)
 	(segment
@@ -7341,7 +7458,7 @@
 		(end 113.08 107.85)
 		(width 0.4)
 		(layer "B.Cu")
-		(net 22)
+		(net 23)
 		(uuid "e1847b49-d586-43b9-9b7e-d69b3576342b")
 	)
 	(group ""
