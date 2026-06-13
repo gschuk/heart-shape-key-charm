@@ -628,17 +628,6 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 1.9 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "Cmts.User")
-			(uuid "3a4f24ff-a77f-4d06-88de-b98ef8f11a69")
-		)
-		(fp_circle
-			(center 0 0)
 			(end 2.15 0)
 			(stroke
 				(width 0.05)
@@ -5107,17 +5096,6 @@
 			(layer "B.SilkS")
 			(uuid "cf3c59e1-c4c5-4cae-bfe6-1bd0072d0861")
 		)
-		(fp_circle
-			(center 0 0)
-			(end -10.2 0)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(fill no)
-			(layer "Dwgs.User")
-			(uuid "99dc43c3-bdbb-4144-bc51-0f787991d4e1")
-		)
 		(fp_line
 			(start -16.45 -2.3)
 			(end -16.45 2.3)
@@ -6212,6 +6190,19 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fd2037db-4190-4975-8592-bfa2b41fe4b3")
+	)
+	(gr_text "Made with love by your nerd <3"
+		(at 121.2 97 0)
+		(layer "B.SilkS")
+		(uuid "421c4562-d668-4481-b1fd-60ec7fcc5a75")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(segment
 		(start 113.560003 96.536852)
