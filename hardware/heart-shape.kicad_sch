@@ -3147,7 +3147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8402fb52-98ed-469d-843b-036533f1536f")
-		(property "Reference" "JVcc1"
+		(property "Reference" "JVCC1"
 			(at 55.118 64.77 0)
 			(effects
 				(font
@@ -3197,7 +3197,7 @@
 		(instances
 			(project "heart-shape"
 				(path "/df9ea561-7e2c-480c-ab8c-2bbc402a98a2"
-					(reference "JVcc1")
+					(reference "JVCC1")
 					(unit 1)
 				)
 			)
