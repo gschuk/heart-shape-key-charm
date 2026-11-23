@@ -2363,7 +2363,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nf"
 			(at 38.1 48.26 90)
 			(effects
 				(font
