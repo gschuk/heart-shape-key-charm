@@ -23,7 +23,7 @@ The Attiny 84a features 4 PWM pins. In order to control all 7 LEDs, 3 PWM pins a
 Instead of connecting each LED to Vcc or GND statically and controlling the LEDs solely by PWM additional digital pins are used to either turn a single LED on or off. Each LED is connected to one digital pin either driving the output LOW or HIGH. For example: LED D1 and LED D4 share the same PWM signal. If these two LEDs would be statically connected to Vcc or GND they would light up identically. The additional control over the digital pins allows for LED D4 to light up even when LED D1 is turned off.
 
 
-## Programming Attiny 84a
+<!-- ## Programming Attiny 84a
 Pins to program the Attiny 84a are exposed using pads on the backside of the PCB. 
 Only use 3 V (or 3.3 V) for powering the key charm! 
 | PCB Pad  | Attiny 84a Pin | ISP |
@@ -33,4 +33,4 @@ Only use 3 V (or 3.3 V) for powering the key charm!
 | JF1   | PA6  | MOSI  |
 | JF2   | PB3  | RESET |
 | JVcc1 | Vcc  | Vcc   |
-| JGND1 | GND  | GND   |
+| JGND1 | GND  | GND   | -->
