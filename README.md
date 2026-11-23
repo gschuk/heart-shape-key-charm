@@ -37,7 +37,6 @@ Sn-96.5 Ag-3.0 Cu-0.5 (microns:20-38) melting point at approximately 217 °C
 
 ## Flashing
 
-
 ### Connection
 Pins to program the Attiny 84a are exposed using pads on the backside of the PCB.
 Only use 3 V (or 3.3 V) for powering the key charm!
@@ -53,10 +52,13 @@ Only use 3 V (or 3.3 V) for powering the key charm!
 
 Those Pads can either be soldered to wires for a reliable connection. If you only intend to flash a working version of the firmware once it is recommended to just use a 1x6 pin header and physically press it on the pads.
 
-
-
-
 ### Programmer
 The key charm is intended to be programmed by an Arduino ISP programmer (e.g. Arduino Uno). Generally any boardmanager can be used that supports the Attiny84a examples for boardmanagers are the following:
 - https://github.com/SpenceKonde/ATTinyCore
 - https://github.com/damellis/attiny
+
+### Attiny Setup
+- Set clock to: **1 MHz Internal**
+- Set Processor to: **Attiny 84**
+
+=> Typical user error: make sure you upload the code using the programmer.

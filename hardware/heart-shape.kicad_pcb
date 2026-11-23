@@ -86,7 +86,7 @@
 	(net 6 "Net-(D5-A)")
 	(net 7 "Net-(U1-PB2)")
 	(net 8 "GND")
-	(net 9 "Net-(BT1-+)")
+	(net 9 "Vcc Battery")
 	(net 10 "Net-(JF1-Pin_1)")
 	(net 11 "Net-(JF2-Pin_1)")
 	(net 12 "Net-(D6-K)")
@@ -1076,7 +1076,7 @@
 			(at 0.75 -1.75 135)
 			(size 0.7 1.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 9 "Net-(BT1-+)")
+			(net 9 "Vcc Battery")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "a2b443bd-1da4-493d-a25d-eb05cfa8c3e1")
@@ -1137,7 +1137,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "680R"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "2e5f905d-05ce-47e7-ad73-8b6d14e9f8f2")
@@ -1804,7 +1804,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "680R"
 			(at 0 1.65 45)
 			(layer "F.Fab")
 			(uuid "f9491505-4b46-4791-b6ea-f072707b0ee9")
@@ -2237,7 +2237,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "680R"
 			(at 0 1.65 45)
 			(layer "F.Fab")
 			(uuid "c3d565ae-0438-4615-9a1b-460afc3ba6b8")
@@ -2770,7 +2770,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "680R"
 			(at 0 1.65 135)
 			(layer "F.Fab")
 			(uuid "4c3c2e35-4403-4c78-948d-a9dba2087384")
@@ -3203,7 +3203,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "680R"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "5ebf138a-e195-4d41-bff2-7f61ee23cece")
@@ -3402,7 +3402,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "680R"
 			(at 0 1.65 135)
 			(layer "F.Fab")
 			(uuid "5cb03cb8-dbef-4a6c-9c05-944589d28afd")
@@ -3835,7 +3835,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "680R"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "4756ff22-0c21-4dbe-a253-58ae76c3b12b")
@@ -4034,7 +4034,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nf"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "aff60dd0-00cd-433a-b1b9-e355d082e98b")
@@ -4425,7 +4425,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "B.Cu" "B.Mask")
-			(net 9 "Net-(BT1-+)")
+			(net 9 "Vcc Battery")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "2919429e-34ab-41f7-92e2-c145c849a1fc")
@@ -5484,7 +5484,7 @@
 			(at -14.65 0 180)
 			(size 2.6 3.6)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 9 "Net-(BT1-+)")
+			(net 9 "Vcc Battery")
 			(pinfunction "+")
 			(pintype "passive")
 			(uuid "e9dd180a-7c61-46f4-97e3-9a0f7112bf15")
